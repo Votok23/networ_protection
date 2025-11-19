@@ -1,0 +1,50 @@
+2025-11-18 18:28:03,816 fail2ban.observer       [14291]: INFO    Observer stopped, 0 events remaining.
+2025-11-18 18:28:03,857 fail2ban.server         [14291]: INFO    Stopping all jails
+2025-11-18 18:28:03,900 fail2ban.actions        [14291]: NOTICE  [sshd] Flush ticket(s) with nftables
+2025-11-18 18:28:03,982 fail2ban.jail           [14291]: INFO    Jail 'sshd' stopped
+2025-11-18 18:28:03,983 fail2ban.database       [14291]: INFO    Connection to database closed.
+2025-11-18 18:28:03,983 fail2ban.server         [14291]: INFO    Exiting Fail2ban
+2025-11-18 18:28:04,518 fail2ban.server         [16337]: INFO    --------------------------------------------------
+2025-11-18 18:28:04,518 fail2ban.server         [16337]: INFO    Starting Fail2ban v1.0.2
+2025-11-18 18:28:04,519 fail2ban.observer       [16337]: INFO    Observer start...
+2025-11-18 18:28:04,529 fail2ban.database       [16337]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2025-11-18 18:28:04,531 fail2ban.jail           [16337]: INFO    Creating new jail 'sshd'
+2025-11-18 18:28:04,902 fail2ban.jail           [16337]: INFO    Jail 'sshd' uses systemd {}
+2025-11-18 18:28:04,905 fail2ban.jail           [16337]: INFO    Initiated 'systemd' backend
+2025-11-18 18:28:04,908 fail2ban.filter         [16337]: INFO      maxLines: 1
+2025-11-18 18:28:04,969 fail2ban.filtersystemd  [16337]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2025-11-18 18:28:04,969 fail2ban.filter         [16337]: INFO      maxRetry: 3
+2025-11-18 18:28:04,969 fail2ban.filter         [16337]: INFO      findtime: 600
+2025-11-18 18:28:04,970 fail2ban.actions        [16337]: INFO      banTime: 600
+2025-11-18 18:28:04,970 fail2ban.filter         [16337]: INFO      encoding: UTF-8
+2025-11-18 18:28:04,974 fail2ban.filtersystemd  [16337]: INFO    [sshd] Jail is in operation now (process new journal entries)
+2025-11-18 18:28:04,975 fail2ban.jail           [16337]: INFO    Jail 'sshd' started
+2025-11-18 18:28:56,787 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:56
+2025-11-18 18:28:57,571 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,596 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,629 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,641 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,675 fail2ban.actions        [16337]: NOTICE  [sshd] Ban 10.0.2.15
+2025-11-18 18:28:57,711 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,713 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,719 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,731 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,734 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,737 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:57,742 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:57
+2025-11-18 18:28:59,049 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:58
+2025-11-18 18:28:59,053 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:58
+2025-11-18 18:28:59,056 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,525 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,529 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,533 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,536 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,539 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,542 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,544 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,546 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,547 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,548 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,550 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-18 18:28:59,551 fail2ban.filter         [16337]: INFO    [sshd] Found 10.0.2.15 - 2025-11-18 18:28:59
+2025-11-19 07:36:02,758 fail2ban.actions        [16337]: NOTICE  [sshd] Unban 10.0.2.15

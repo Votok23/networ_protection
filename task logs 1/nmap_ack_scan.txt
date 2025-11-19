@@ -1,0 +1,7 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-11-19 07:39 +07
+Nmap scan report for r2d2-VirtualBox (10.0.2.15)
+Host is up (0.000020s latency).
+All 1000 scanned ports on r2d2-VirtualBox (10.0.2.15) are in ignored states.
+Not shown: 1000 unfiltered tcp ports (reset)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.28 seconds
